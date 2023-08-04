@@ -1,5 +1,5 @@
 
-function Item(props: { name: any; image: any; link: any }){
+function Item(props: { name: string; image: string; link: string }){
     return (
         <>
         <div className="flex flex-row px-3 border rounded-md m-2 bg-white relative">
