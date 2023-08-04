@@ -10,7 +10,6 @@ function TitlePage(){
 
   const getLastSegmentFromUrl = (url: string) => {
     const diviser = url.split('/');
-    console.log(diviser)
     return diviser[diviser.length - 1];
   };
   let lastSegment = getLastSegmentFromUrl(currentUrl);
